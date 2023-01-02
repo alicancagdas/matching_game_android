@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051992334602",
+    "project_id": "hafiza-1a53d",
+    "storage_bucket": "hafiza-1a53d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051992334602:android:da5cfd53df5a30e0475af3",
+        "android_client_info": {
+          "package_name": "com.example.soruncozuldu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051992334602-0fmpt68okh789chvs7kdnvm393p8kgel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbGFIWAKPXk5TsTw9PT3bWslfzG7PJyEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051992334602-0fmpt68okh789chvs7kdnvm393p8kgel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="0.4dp"
+    android:background="@drawable/bkg1"
+    android:orientation="vertical"
+    android:padding="60dp"
+    tools:context=".LoginActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_background"
+        android:hint="Full name"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="#B87E7E" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_background"
+        android:hint="Email adress"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="#B87E7E" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="#B87E7E" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#123d"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:insetLeft="45dp"
+        android:insetTop="15dp"
+        android:insetRight="56dp"
+        android:shadowColor="@color/black"
+        android:text="SIGN UP"
+        android:textColor="#e4d8"
+        android:textColorHint="@color/material_dynamic_secondary50"
+        android:textColorLink="@color/cardview_dark_background"
+        android:translationX="3dp"
+        app:rippleColor="@color/black"
+        app:strokeColor="#502727" />
+
+
+    <TextView
+        android:id="@+id/goToLoginActivty"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:backgroundTint="@color/material_dynamic_primary60"
+        android:drawableLeft="@android:drawable/ic_menu_revert"
+        android:drawablePadding="15dp"
+        android:elegantTextHeight="true"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="@color/black"
+        android:text="LOGIN"
+        android:textAllCaps="true"
+        android:textColor="#9fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:translationX="@dimen/cardview_default_radius"
+        app:drawableTint="@color/material_dynamic_tertiary10"
+        app:drawableTintMode="add" />
+</LinearLayout>

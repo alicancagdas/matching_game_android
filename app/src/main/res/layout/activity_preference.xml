@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg4"
+    tools:context=".preference">
+
+
+    <Button
+        android:id="@+id/tekOyuncu"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_x="65dp"
+        android:layout_y="102dp"
+        android:backgroundTint="#123d"
+        android:insetLeft="4dp"
+        android:insetTop="6dp"
+        android:insetRight="10dp"
+        android:shadowColor="@color/black"
+        android:text="TEK OYUNCULU"
+        android:textColor="#EE9A0D22"
+        android:textColorHint="@color/material_dynamic_secondary50"
+        android:textColorLink="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:translationX="3dp"
+        app:rippleColor="@color/black"
+        app:strokeColor="#502727"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <Button
+        android:id="@+id/ikiOyuncu"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_x="65dp"
+        android:layout_y="350dp"
+        android:backgroundTint="#123d"
+        android:insetLeft="4dp"
+        android:insetTop="6dp"
+        android:insetRight="10dp"
+        android:shadowColor="@color/black"
+        android:text="IKI OYUNCULU"
+        android:textColor="#EE24E46A"
+        android:textColorHint="@color/material_dynamic_secondary50"
+        android:textColorLink="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:translationX="3dp"
+        app:rippleColor="@color/black"
+        app:strokeColor="#502727"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="315dp" />
+</AbsoluteLayout>

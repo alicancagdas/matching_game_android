@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/LL0"
+        android:background="#C7D7D8"
+
+        >
+
+        <AbsoluteLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="#993668AC"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="0dp"
+                android:layout_x="4dp"
+                android:layout_y="7dp"
+                android:gravity="left"
+                android:text="TIME: "
+                android:textColor="#000000"
+                android:textColorLink="@color/cardview_dark_background"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="0dp"
+                android:layout_x="5dp"
+                android:layout_y="43dp"
+                android:gravity="left"
+                android:text="Player1:"
+                android:textColor="#456"
+                android:textSize="20dp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="0dp"
+                android:layout_x="3dp"
+                android:layout_y="66dp"
+                android:gravity="left"
+                android:text="Player2 :"
+                android:textColor="#456"
+                android:textSize="20dp"
+                android:textStyle="normal|bold|italic" />
+
+            <Button
+                android:id="@+id/open"
+                android:layout_width="45dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_x="351dp"
+                android:layout_y="16dp"
+                android:backgroundTint="#123d"
+                android:foreground="@android:drawable/ic_lock_silent_mode_off"
+                android:foregroundGravity="left"
+                android:insetLeft="4dp"
+                android:insetTop="6dp"
+                android:insetRight="10dp"
+                android:shadowColor="@color/black"
+                android:textColor="#e4d8"
+                android:textColorHint="@color/material_dynamic_secondary50"
+                android:textColorLink="@color/cardview_dark_background"
+                android:translationX="0dp" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="35dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_x="352dp"
+                android:layout_y="50dp"
+                android:backgroundTint="#123d"
+                android:foreground="@android:drawable/ic_lock_silent_mode"
+                android:foregroundGravity="left"
+                android:foregroundTint="@color/white"
+                android:insetLeft="4dp"
+                android:insetTop="6dp"
+                android:insetRight="10dp"
+                android:shadowColor="@color/black"
+                android:translationX="0dp" />
+
+        </AbsoluteLayout>
+
+        <LinearLayout
+
+            android:layout_below="@+id/LL0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/LL2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/card00"
+                android:src="@drawable/back"
+                android:scaleType="centerInside"
+                android:layout_margin="5dp"
+                android:background="#364B23A1"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:id="@+id/card01"
+                android:layout_margin="5dp"
+
+                android:layout_weight="1"
+                android:background="#364B23A1"
+
+                android:scaleType="centerInside"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/LL0"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#364B23A1"
+                android:scaleType="centerInside"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+
+                android:background="#364B23A1"
+                android:scaleType="centerInside"
+
+                android:src="@drawable/back" />
+
+
+        </LinearLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="#39006064"
+            >
+
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LL2"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_x="256dp"
+                android:layout_y="1dp"
+                android:backgroundTint="#4D2056A6"
+                android:onClick="next"
+                android:text="NEXT"
+                android:textColor="#343"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LL2"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="500dp"
+                android:layout_x="11dp"
+                android:layout_y="1dp"
+                android:backgroundTint="#4D2056A6"
+                android:onClick="start"
+                android:text="START"
+                android:textColor="#347"
+                android:textSize="18dp" />
+
+
+        </AbsoluteLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
